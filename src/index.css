@@ -105,6 +105,10 @@ input {
   align-content: start;
 }
 
+.list ul::-webkit-scrollbar {
+  display: none;  /* For Chrome, Safari, and Opera */
+}
+
 .list li {
   display: flex;
   align-items: center;
